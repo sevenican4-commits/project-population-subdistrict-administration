@@ -1,0 +1,18 @@
+.dark {
+    --bg-color: #1a202c;
+    --text-color: #e2e8f0;
+}
+
+body {
+    background-color: var(--bg-color);
+    color: var(--text-color);
+}
+
+/* Custom component styling */
+.button {
+    @apply bg-blue-500 text-white px-4 py-2 rounded;
+}
+
+.card {
+    @apply bg-white dark:bg-gray-800 shadow-lg rounded-lg p-4;
+}
